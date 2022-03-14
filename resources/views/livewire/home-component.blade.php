@@ -5,30 +5,28 @@
 			<div class="wrap-main-slide">
 				<div class="slide-carousel owl-carousel style-nav-1" data-items="1" data-loop="1" data-nav="true" data-dots="false">
 					<div class="item-slide">
-						<img src="{{asset('assets/images/main-slider-1-1.jpg')}}" alt="" class="img-slide">
+						<img src="{{asset('assets/pictures/slider-background/groceries-e1554037962210.jpeg')}}" alt="" class="img-slide">
 						<div class="slide-info slide-1">
-							<h2 class="f-title">Kid Smart <b>Watches</b></h2>
-							<span class="subtitle">Compra todos tus productos Smart por internet.</span>
-							<p class="sale-info">Only price: <span class="price">$59.99</span></p>
+							<h2 class="f-title" ><b style="color:white;">Buy All your Groceries</b></h2>
+							<h1 class="subtitle" style="color:white;">Fresh groceries and more.</h1>
+							<!-- <p class="sale-info">Only price: <span class="price">$59.99</span></p> -->
 							<a href="#" class="btn-link">Shop Now</a>
 						</div>
 					</div>
 					<div class="item-slide">
-						<img src="{{asset('assets/images/main-slider-1-2.jpg')}}" alt="" class="img-slide">
+						<img src="{{asset('assets/pictures/slider-background/beaded-craftwork-at-market-close-to-andbeyond-ngorongoro.jpeg')}}" alt="" class="img-slide">
 						<div class="slide-info slide-2">
-							<h2 class="f-title">Extra 25% Off</h2>
-							<span class="f-subtitle">On online payments</span>
-							<p class="discount-code">Use Code: #FA6868</p>
-							<h4 class="s-title">Get Free</h4>
-							<p class="s-subtitle">TRansparent Bra Straps</p>
+							<h2 class="f-title"><b style="color:white;">Original African Beads</b></h2>
+							<span class="f-subtitle" style="color:white;">In all colors and sizes</span>
+							<p class="discount-code">(+845) 942  8471</p>
+							<h4 class="s-title">Call Hotline</h4>
+							<p class="s-subtitle" style="color:white;">Visit Our shop</p>
 						</div>
 					</div>
 					<div class="item-slide">
-						<img src="{{asset('assets/images/main-slider-1-3.jpg')}}" alt="" class="img-slide">
+						<img src="{{asset('assets/pictures/slider-background/traditional-kente-cloth-sale-streets-accra-ghana-colorful-vivid-vibrant-blue-green-yellow-orange-purple-red-130267947.jpeg')}}" alt="" class="img-slide">
 						<div class="slide-info slide-3">
-							<h2 class="f-title">Great Range of <b>Exclusive Furniture Packages</b></h2>
-							<span class="f-subtitle">Exclusive Furniture Packages to Suit every need.</span>
-							<p class="sale-info">Stating at: <b class="price">$225.00</b></p>
+							<h2 class="f-title"><b style="color:white;">Quality Kente Fabric</b></h2>							
 							<a href="#" class="btn-link">Shop Now</a>
 						</div>
 					</div>
@@ -39,18 +37,18 @@
 			<div class="wrap-banner style-twin-default">
 				<div class="banner-item">
 					<a href="#" class="link-banner banner-effect-1">
-						<figure><img src="{{asset('assets/images/home-1-banner-1.jpg')}}" alt="" width="580" height="190"></figure>
+						<figure><img src="{{asset('assets/pictures/slider-background/banner-1.jpeg')}}" alt="" width="580" height="190"></figure>
 					</a>
 				</div>
 				<div class="banner-item">
 					<a href="#" class="link-banner banner-effect-1">
-						<figure><img src="{{asset('assets/images/home-1-banner-2.jpg')}}" alt="" width="580" height="190"></figure>
+						<figure><img src="{{asset('assets/pictures/slider-background/Easy-Grocery-banner-1.png')}}" alt="" width="580" height="170"></figure>
 					</a>
 				</div>
 			</div>
 
 			<!--On Sale-->
-			<div class="wrap-show-advance-info-box style-1 has-countdown">
+			<!-- <div class="wrap-show-advance-info-box style-1 has-countdown">
 				<h3 class="title-box">On Sale</h3>
 				<div class="wrap-countdown mercado-countdown" data-expire="2020/12/12 12:34:56"></div>
 				<div class="wrap-products slide-carousel owl-carousel style-nav-1 equal-container " data-items="5" data-loop="false" data-nav="true" data-dots="false" data-responsive='{"0":{"items":"1"},"480":{"items":"2"},"768":{"items":"3"},"992":{"items":"4"},"1200":{"items":"5"}}'>
@@ -200,14 +198,14 @@
 					</div>
 
 				</div>
-			</div>
+			</div> -->
 
 			<!--Latest Products-->
 			<div class="wrap-show-advance-info-box style-1">
 				<h3 class="title-box">Latest Products</h3>
 				<div class="wrap-top-banner">
 					<a href="#" class="link-banner banner-effect-2">
-						<figure><img src="{{asset('assets/images/digital-electronic-banner.jpg')}}" width="1170" height="240" alt=""></figure>
+						<!-- <figure><img src="{{asset('assets/images/digital-electronic-banner.jpg')}}" width="1170" height="240" alt=""></figure> -->
 					</a>
 				</div>
 				<div class="wrap-products">
@@ -218,8 +216,8 @@
 
 									<div class="product product-style-2 equal-elem ">
 										<div class="product-thumnail">
-											<a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-												<figure><img src="{{asset('assets/images/products/digital_04.jpg')}}" width="800" height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
+											<a href="detail.html" title="Waistbeads">
+												<figure><img src="{{asset('assets/pictures/product/waist-beads-red.png')}}" width="800" height="800" alt="Waistbeads"></figure>
 											</a>
 											<div class="group-flash">
 												<span class="flash-item new-label">new</span>
@@ -229,15 +227,15 @@
 											</div>
 										</div>
 										<div class="product-info">
-											<a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
-											<div class="wrap-price"><span class="product-price">$250.00</span></div>
+											<a href="" class="product-name" muted><span>Waistbeads</span></a>
+											<div class="wrap-price"><span class="product-price">0.00</span></div>
 										</div>
 									</div>
 
 									<div class="product product-style-2 equal-elem ">
 										<div class="product-thumnail">
-											<a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-												<figure><img src="{{asset('assets/images/products/digital_17.jpg')}}" width="800" height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
+											<a href="detail.html" title="African Slippers">
+												<figure><img src="{{asset('assets/pictures/product/slippers3.png')}}" width="500" height="500" alt="African Slippers"></figure>
 											</a>
 											<div class="group-flash">
 												<span class="flash-item sale-label">sale</span>
@@ -247,15 +245,15 @@
 											</div>
 										</div>
 										<div class="product-info">
-											<a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
-											<div class="wrap-price"><ins><p class="product-price">$168.00</p></ins> <del><p class="product-price">$250.00</p></del></div>
+											<a href="#" class="product-name"><span>African Slippers (Women)</span></a>
+											<div class="wrap-price"><ins><p class="product-price">$0.00</p></ins> <del><p class="product-price">0.00</p></del></div>
 										</div>
 									</div>
 
 									<div class="product product-style-2 equal-elem ">
 										<div class="product-thumnail">
-											<a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-												<figure><img src="{{asset('assets/images/products/digital_15.jpg')}}" width="800" height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
+											<a href="detail.html" title="African Print Cloth">
+												<figure><img src="{{asset('assets/pictures/product/african-cloth.png')}}" width="800" height="800" alt="" style="padding-top: 35px;"></figure>
 											</a>
 											<div class="group-flash">
 												<span class="flash-item new-label">new</span>
@@ -266,15 +264,15 @@
 											</div>
 										</div>
 										<div class="product-info">
-											<a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
-											<div class="wrap-price"><ins><p class="product-price">$168.00</p></ins> <del><p class="product-price">$250.00</p></del></div>
+											<a href="#" class="product-name"  ><span  style="padding-top: 30px;">African Print Cloth</span></a>
+											<div class="wrap-price"><ins><p class="product-price">$0.00</p></ins> <del><p class="product-price">$0.00</p></del></div>
 										</div>
 									</div>
 
 									<div class="product product-style-2 equal-elem ">
 										<div class="product-thumnail">
-											<a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-												<figure><img src="{{asset('assets/images/products/digital_01.jpg')}}" width="800" height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
+											<a href="detail.html" title="Handbag (Women)">
+												<figure><img src="{{asset('assets/pictures/product/messenger-bags-metal-christian-louboutin-leather-shoe.jpeg')}}" width="800" height="800" alt="Handbag (Women)"></figure>
 											</a>
 											<div class="group-flash">
 												<span class="flash-item bestseller-label">Bestseller</span>
@@ -284,22 +282,22 @@
 											</div>
 										</div>
 										<div class="product-info">
-											<a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
-											<div class="wrap-price"><span class="product-price">$250.00</span></div>
+											<a href="#" class="product-name"><span>Handbag (Women)</span></a>
+											<div class="wrap-price"><span class="product-price">$0.00</span></div>
 										</div>
 									</div>
 
 									<div class="product product-style-2 equal-elem ">
 										<div class="product-thumnail">
-											<a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-												<figure><img src="{{asset('assets/images/products/digital_21.jpg')}}" width="800" height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
+											<a href="detail.html" title="YSL Handbag women">
+												<figure><img src="{{asset('assets/pictures/product/ysl-bag.png')}}" width="800" height="800" alt="YSL Handbag"></figure>
 											</a>
 											<div class="wrap-btn">
 												<a href="#" class="function-link">quick view</a>
 											</div>
 										</div>
 										<div class="product-info">
-											<a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
+											<a href="#" class="product-name"><span>YSL Handbag (Women)</span></a>
 											<div class="wrap-price"><span class="product-price">$250.00</span></div>
 										</div>
 									</div>
@@ -370,16 +368,16 @@
 				<h3 class="title-box">Product Categories</h3>
 				<div class="wrap-top-banner">
 					<a href="#" class="link-banner banner-effect-2">
-						<figure><img src="{{asset('assets/images/fashion-accesories-banner.jpg')}}" width="1170" height="240" alt=""></figure>
+						<!-- <figure><img src="{{asset('assets/images/fashion-accesories-banner.jpg')}}" width="1170" height="240" alt=""></figure> -->
 					</a>
 				</div>
 				<div class="wrap-products">
 					<div class="wrap-product-tab tab-style-1">
 						<div class="tab-control">
-							<a href="#fashion_1a" class="tab-control-item active">Smartphone</a>
-							<a href="#fashion_1b" class="tab-control-item">Watch</a>
-							<a href="#fashion_1c" class="tab-control-item">Laptop</a>
-							<a href="#fashion_1d" class="tab-control-item">Tablet</a>
+							<a href="#fashion_1a" class="tab-control-item active">Sodas</a>
+							<a href="#fashion_1b" class="tab-control-item">Cereals</a>
+							<a href="#fashion_1c" class="tab-control-item">Groceries</a>
+							<a href="#fashion_1d" class="tab-control-item">Others</a>
 						</div>
 						<div class="tab-contents">
 
@@ -389,7 +387,7 @@
 									<div class="product product-style-2 equal-elem ">
 										<div class="product-thumnail">
 											<a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-												<figure><img src="{{asset('assets/images/products/fashion_01.jpg')}}" width="800" height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
+												<figure><img src="{{asset('assets/pictures/product/5040.png')}}" width="800" height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
 											</a>
 											<div class="group-flash">
 												<span class="flash-item new-label">new</span>
@@ -407,7 +405,7 @@
 									<div class="product product-style-2 equal-elem ">
 										<div class="product-thumnail">
 											<a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-												<figure><img src="{{asset('assets/images/products/fashion_02.jpg')}}" width="800" height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
+												<figure><img src="{{asset('assets/pictures/product/coca-cola-plastic-bottle-15l.jpeg')}}" width="800" height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
 											</a>
 											<div class="group-flash">
 												<span class="flash-item sale-label">sale</span>
@@ -425,7 +423,7 @@
 									<div class="product product-style-2 equal-elem ">
 										<div class="product-thumnail">
 											<a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-												<figure><img src="{{asset('assets/images/products/fashion_09.jpg')}}" width="800" height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
+												<figure><img src="{{asset('assets/pictures/product/don-simon-multifruta-1l-pack-of-12.jpeg')}}" width="800" height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
 											</a>
 											<div class="wrap-btn">
 												<a href="#" class="function-link">quick view</a>
@@ -440,7 +438,7 @@
 									<div class="product product-style-2 equal-elem ">
 									<div class="product-thumnail">
 										<a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-											<figure><img src="{{asset('assets/images/products/fashion_03.jpg')}}" width="800" height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
+											<figure><img src="{{asset('assets/pictures/product/alvaro-pear-drink.jpeg')}}" width="800" height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
 										</a>
 										<div class="group-flash">
 											<span class="flash-item new-label">new</span>
@@ -459,7 +457,7 @@
 									<div class="product product-style-2 equal-elem ">
 										<div class="product-thumnail">
 											<a href="detail.html" title="T-Shirt Raw Hem Organic Boro Constrast Denim">
-												<figure><img src="{{asset('assets/images/products/fashion_07.jpg')}}" width="800" height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
+												<figure><img src="{{asset('assets/pictures/product/fanta1.png')}}" width="800" height="800" alt="T-Shirt Raw Hem Organic Boro Constrast Denim"></figure>
 											</a>
 											<div class="group-flash">
 												<span class="flash-item bestseller-label">Bestseller</span>
