@@ -31,9 +31,9 @@
                                 <a href="#" class="count-review">(05 review)</a>
                             </div>
                             <h2 class="product-name">{{$product->name}}</h2>
-                            <div class="short-desc">
+                            <!-- <div class="short-desc">
                                 {{$product->short_description}}
-                            </div>
+                            </div> -->
                             <div class="wrap-social">
                             	<a class="link-socail" href="#"><img src="{{asset ('assets/images/social-list.png')}}" alt=""></a>
                             </div>
@@ -65,9 +65,9 @@
 								<a href="#review" class="tab-control-item">Reviews</a>
 							</div>
 							<div class="tab-contents">
-								<div class="tab-content-item active" id="description">
+								<!-- <div class="tab-content-item active" id="description">
 									{{$product->description}}
-								</div>
+								</div> -->
 								<div class="tab-content-item " id="add_infomation">
 									<table class="shop_attributes">
 										<tbody>
@@ -86,13 +86,13 @@
 								<div class="tab-content-item " id="review">
 									
 									<div class="wrap-review-form">
-										
+
 										<div id="comments">
-											<h2 class="woocommerce-Reviews-title">01 review for <span>Radiant-360 R6 Chainsaw Omnidirectional [Orage]</span></h2>
+											<h2 class="woocommerce-Reviews-title">No review <span></span></h2>
 											<ol class="commentlist">
 												<li class="comment byuser comment-author-admin bypostauthor even thread-even depth-1" id="li-comment-20">
 													<div id="comment-20" class="comment_container"> 
-														<img alt="" src="{{asset('assets/images/author-avata.jpg')}}" height="80" width="80">
+														<!-- <img alt="" src="{{asset('assets/images/')}}" height="80" width="80"> -->
 														<div class="comment-text">
 															<div class="star-rating">
 																<span class="width-80-percent">Rated <strong class="rating">5</strong> out of 5</span>
@@ -103,7 +103,7 @@
 																<time class="woocommerce-review__published-date" datetime="2008-02-14 20:00" >Tue, Aug 15,  2017</time>
 															</p>
 															<div class="description">
-																<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+																<p></p>
 															</div>
 														</div>
 													</div>
@@ -165,7 +165,7 @@
 				</div><!--end main products area-->
 
 				<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 sitebar">
-					<div class="widget widget-our-services ">
+					<!-- <div class="widget widget-our-services ">
 						<div class="widget-content">
 							<ul class="our-services">
 
@@ -203,7 +203,7 @@
 								</li>
 							</ul>
 						</div>
-					</div><!-- Categories widget-->
+					</div>     Categories widget -->
 
 					<div class="widget mercado-widget widget-product">
 						<h2 class="widget-title">Popular Products</h2>

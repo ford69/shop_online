@@ -128,7 +128,7 @@
 									<div class="wrap-list-cate">
 										<input type="hidden" name="product-cate" value="0" id="product-cate">
 										<a href="#" class="link-control">All Category</a>
-										<ul class="list-cate">
+										<!-- <ul class="list-cate">
 											<li class="level-0">All Category</li>
 											<li class="level-1">-Electronics</li>
 											<li class="level-2">Batteries & Chargens</li>
@@ -146,7 +146,7 @@
 											<li class="level-2">Batteries & Chargens</li>
 											<li class="level-2">Mp3 Player & Headphones</li>
 											<li class="level-2">Table & Accessories</li>
-										</ul>
+										</ul> -->
 									</div>
 								</form>
 							</div>
@@ -163,7 +163,7 @@
 								</a>
 							</div>
 							<div class="wrap-icon-section minicart">
-								<a href="#" class="link-direction">
+								<a href="/cart" class="link-direction">
 									<i class="fa fa-shopping-basket" aria-hidden="true"></i>
 									<div class="left-info">
 										@if (Cart::count() > 0)
@@ -208,18 +208,18 @@
 								<li class="menu-item">
 									<a href="/shop" class="link-term mercado-item-title">Shop</a>
 								</li>
-								<li class="menu-item">
+								<!-- <li class="menu-item">
 									<a href="about-us.html" class="link-term mercado-item-title">About Us</a>
-                                </liv>
+                                </liv> -->
 								<!-- <li class="menu-item">
 									<a href="/cart" class="link-term mercado-item-title">Cart</a>
 								</li> -->
 								<!-- <li class="menu-item">
 									<a href="/checkout" class="link-term mercado-item-title">Checkout</a>
 								</li> -->
-								<li class="menu-item">
+								<!-- <li class="menu-item">
 									<a href="contact-us.html" class="link-term mercado-item-title">Contact Us</a>
-								</li>																	
+								</li>																	 -->
 							</ul>
 						</div>
 					</div>

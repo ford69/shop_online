@@ -99,7 +99,7 @@
 						</div>
 					</div><!-- Categories widget-->
 
-					<div class="widget mercado-widget filter-widget brand-widget">
+					<!-- <div class="widget mercado-widget filter-widget brand-widget">
 						<h2 class="widget-title">Brand</h2>
 						<div class="widget-content">
 							<ul class="list-style vertical-list list-limited" data-show="6">
@@ -116,7 +116,7 @@
 								<li class="list-item"><a data-label='Show less<i class="fa fa-angle-up" aria-hidden="true"></i>' class="btn-control control-show-more" href="#">Show more<i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
 							</ul>
 						</div>
-					</div>
+					</div> -->
 					<!-- brand widget-->
 
 					<!-- <div class="widget mercado-widget filter-widget price-filter">
@@ -177,7 +177,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>African made Waistbeads...</span></a>
-											<div class="wrap-price"><span class="product-price">$20.00</span></div>
+											<div class="wrap-price"><span class="product-price">0.00</span></div>
 										</div>
 									</div>
 								</li>
@@ -191,7 +191,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>African Print slippers...</span></a>
-											<div class="wrap-price"><span class="product-price">$20.00</span></div>
+											<div class="wrap-price"><span class="product-price">$0.00</span></div>
 										</div>
 									</div>
 								</li>
@@ -205,7 +205,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>African Print Slippers...</span></a>
-											<div class="wrap-price"><span class="product-price">$20.00</span></div>
+											<div class="wrap-price"><span class="product-price">$0.00</span></div>
 										</div>
 									</div>
 								</li>
@@ -219,7 +219,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Outre Hair...</span></a>
-											<div class="wrap-price"><span class="product-price">$20.00</span></div>
+											<div class="wrap-price"><span class="product-price">$0.00</span></div>
 										</div>
 									</div>
 								</li>
