@@ -6,7 +6,7 @@ use App\Models\Product;
 use Livewire\Component;
 use Livewire\WithPagination;
 use Cart;
-use\App\Models\Category;
+use App\Models\Category;
 use Illuminate\Support\Facades\Log;
 
 class CategoryComponent extends Component
@@ -34,7 +34,7 @@ class CategoryComponent extends Component
         Log::info($this->category_slug);
         $category = Category::where('id',$this->category_slug )->first();
         if ( !$category){
-            $category = Category::where('slug',$this->category_slug )->first();  
+            $category = Category::where('slug',$this->category_slug )->first();
         }
         $category_id = $category->id;
         $category_name = $category->name;
@@ -55,7 +55,7 @@ class CategoryComponent extends Component
         }
 
         $categories = Category::all();
-        
+
         return view('livewire.category-component',['products'=>$products,'categories'=>$categories,'category_name'=>$category_name])->layout('layouts.master');
     }
 }

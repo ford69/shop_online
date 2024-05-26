@@ -28,10 +28,10 @@
 							<div class="product-name">
 								<a class="link-to-product" href="{{route('product.details',['slug'=>$item->model->slug])}}">{{$item->model->name}}</a>
 							</div>
-							<div class="price-field produtc-price"><p class="price">${{$item->model->regular_price}}</p></div>
+							<div class="price-field produtc-price"><p class="price">¢{{$item->model->regular_price}}</p></div>
 							<div class="quantity">
 								<div class="quantity-input">
-									<input type="text" name="product-quatity" value="{{$item->qty}}" data-max="120" pattern="[0-9]*" >									
+									<input type="text" name="product-quatity" value="{{$item->qty}}" data-max="120" pattern="[0-9]*" >
 									<a class="btn btn-increase" href="#" wire:click.prevent="increaseQuantity('{{$item->rowId}}')" ></a>
 									<a class="btn btn-reduce" href="#" wire:click.prevent="decreaseQuantity('{{$item->rowId}}')"></a>
 								</div>
@@ -44,7 +44,7 @@
 								</a>
 							</div>
 						</li>
-						@endforeach										
+						@endforeach
 					</ul>
 					@else
 					 <p>No Item in cart</p>
@@ -54,10 +54,10 @@
 				<div class="summary">
 					<div class="order-summary">
 						<h4 class="title-box">Order Summary</h4>
-						<p class="summary-info"><span class="title">Subtotal</span><b class="index">${{Cart::subtotal()}}</b></p>
-						<p class="summary-info"><span class="title">Tax</span><b class="index">${{Cart::tax()}}</b></p>
+						<p class="summary-info"><span class="title">Subtotal</span><b class="index">¢{{Cart::subtotal()}}</b></p>
+						<p class="summary-info"><span class="title">Tax</span><b class="index">¢{{Cart::tax()}}</b></p>
 						<p class="summary-info"><span class="title">Shipping</span><b class="index">Free Shipping</b></p>
-						<p class="summary-info total-info "><span class="title">Total</span><b class="index">${{Cart::total()}}</b></p>
+						<p class="summary-info total-info "><span class="title">Total</span><b class="index">¢{{Cart::total()}}</b></p>
 					</div>
 					<div class="checkout-info">
 						<label class="checkbox-field">

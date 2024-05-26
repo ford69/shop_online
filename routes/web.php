@@ -7,7 +7,7 @@ use App\Http\Livewire\DetailsComponent;
 use App\Http\Livewire\User\UserDashboardComponent;
 use App\Http\Livewire\Admin\AdminDashboardComponent;
 use Illuminate\Support\Facades\Route;
-use App\http\Livewire\CategoryComponent;
+use App\Http\Livewire\CategoryComponent;
 
 /*
 |--------------------------------------------------------------------------
@@ -41,6 +41,5 @@ route::middleware(['auth:sanctum','verified'])->group(function(){
 });
 
 //For Admin
-route::middleware(['auth:sanctum','verified','authadmin'])->group(function(){
+
     Route::get('/admin/dashboard',AdminDashboardComponent::class)->name('admin.dashboard');
-});

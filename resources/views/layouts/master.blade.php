@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Home</title>	
+	<title>Home</title>
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400italic,700,700italic,900,900italic&amp;subset=latin,latin-ext" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open%20Sans:300,400,400italic,600,600italic,700,700italic&amp;subset=latin,latin-ext" rel="stylesheet">
@@ -37,13 +37,13 @@
 						<div class="topbar-menu left-menu">
 							<ul>
 								<li class="menu-item" >
-									<a title="Hotline: (+123) 456 789" href="#" ><span class="icon label-before fa fa-mobile"></span>Hotline: (+123) 456 789</a>
+									<a title="Hotline: (+123) 456 789" href="#" ><span class="icon label-before fa fa-mobile"></span>Hotline: (+845) 942 8471</a>
 								</li>
 							</ul>
 						</div>
 						<div class="topbar-menu right-menu">
 							<ul>
-								
+
 								<li class="menu-item lang-menu menu-item-has-children parent">
 									<a title="English" href="#"><span class="img label-before"><img src="assets/images/lang-en.png" alt="lang-en"></span>English<i class="fa fa-angle-down" aria-hidden="true"></i></a>
 									<ul class="submenu lang" >
@@ -56,7 +56,7 @@
 								<li class="menu-item menu-item-has-children parent" >
 									<a title="Dollar (USD)" href="#">Dollar (USD)<i class="fa fa-angle-down" aria-hidden="true"></i></a>
 									<ul class="submenu curency" >
-										<li class="menu-item" >
+										<!-- <li class="menu-item" >
 											<a title="Pound (GBP)" href="#">Pound (GBP)</a>
 										</li>
 										<li class="menu-item" >
@@ -64,12 +64,12 @@
 										</li>
 										<li class="menu-item" >
 											<a title="Dollar (USD)" href="#">Dollar (USD)</a>
-										</li>
+										</li> -->
 									</ul>
 								</li>
 								@if(Route::has('login'))
-									@auth 
-										@if(Auth::user()->utype === 'ADM') 
+									@auth
+										@if(Auth::user()->utype === 'ADM')
 										<li class="menu-item menu-item-has-children parent" >
 											<a title="My Account" href="#">My Account ({{Auth::user()->name}}) <i class="fa fa-angle-down" aria-hidden="true"></i></a>
 											<ul class="submenu curency" >
@@ -81,7 +81,7 @@
 												</li>
 												<form id="logout-form" method="POST" action="{{route('logout')}}">
 													@csrf
-											
+
 												</form>
 											</ul>
 										</li>
@@ -96,11 +96,11 @@
 													<a href="{{route('logout')}}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
 												</li>
 												<form id="logout-form" method="POST" action="{{route('logout')}}">
-													@csrf											
+													@csrf
 												</form>
 											</ul>
 									</li>
-									@endif 
+									@endif
 									@else
 										<li class="menu-item" ><a title="Register or Login" href="{{route('login')}}">Login</a></li>
 										<li class="menu-item" ><a title="Register or Login" href="{{route('register')}}">Register</a></li>
@@ -295,7 +295,7 @@
 											<li>
 												<i class="fa fa-envelope" aria-hidden="true"></i>
 												<p class="contact-txt">Ayeyiemarket@gmail.com</p>
-											</li>											
+											</li>
 										</ul>
 									</div>
 								</div>
@@ -364,7 +364,7 @@
 					</div>
 
 					<!-- <div class="row"> -->
-<!-- 
+<!--
 						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
 							<div class="wrap-footer-item">
 								<h3 class="item-header">We Using Safe Payments:</h3>
@@ -392,7 +392,7 @@
 								</div>
 							</div>
 						</div> -->
-<!-- 
+<!--
 						<div class="col-lg-4 col-sm-4 col-md-4 col-xs-12">
 							<div class="wrap-footer-item">
 								<h3 class="item-header">Dowload App</h3>
@@ -469,10 +469,10 @@
 					<!-- <div class="coppy-right-item item-right">
 						<div class="wrap-nav horizontal-nav">
 							<ul>
-								<li class="menu-item"><a href="about-us.html" class="link-term">About us</a></li>								
+								<li class="menu-item"><a href="about-us.html" class="link-term">About us</a></li>
 								<li class="menu-item"><a href="privacy-policy.html" class="link-term">Privacy Policy</a></li>
 								<li class="menu-item"><a href="terms-conditions.html" class="link-term">Terms & Conditions</a></li>
-								<li class="menu-item"><a href="return-policy.html" class="link-term">Return Policy</a></li>								
+								<li class="menu-item"><a href="return-policy.html" class="link-term">Return Policy</a></li>
 							</ul>
 						</div>
 					</div> -->
@@ -481,7 +481,7 @@
 			</div>
 		</div>
 	</footer>
-	
+
 	<script src="{{asset('assets/js/jquery-1.12.4.minb8ff.js?ver=1.12.4')}}"></script>
 	<script src="{{asset('assets/js/jquery-ui-1.12.4.minb8ff.js?ver=1.12.4')}}"></script>
 	<script src="{{asset('assets/js/bootstrap.min.js')}}"></script>
@@ -493,4 +493,4 @@
 	<script src="{{asset('assets/js/functions.js')}}"></script>
     @livewireScripts
 </body>
-</html> 
+</html>
