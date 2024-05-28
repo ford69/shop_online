@@ -8,7 +8,7 @@
 						<div class="slide-info slide-1">
 							<h2 class="f-title" ><b style="color:white;">Buy All your Groceries</b></h2>
 							<h1 class="subtitle" style="color:white;">Fresh groceries and more.</h1>
-							<!-- <p class="sale-info">Only price: <span class="price">$59.99</span></p>-->
+							<!-- <p class="sale-info">Only price: <span class="price">¢59.99</span></p>-->
 							<a href="#" class="btn-link">Shop Now</a>
 						</div>
 					</div>
@@ -25,7 +25,7 @@
 					<div class="item-slide">
 						<img src="{{asset('assets/pictures/slider-background/traditional-kente-cloth-sale-streets-accra-ghana-colorful-vivid-vibrant-blue-green-yellow-orange-purple-red-130267947.jpeg')}}" alt="" class="img-slide">
 						<div class="slide-info slide-3">
-							<h2 class="f-title"><b style="color:white;">Quality Kente Fabric</b></h2>							
+							<h2 class="f-title"><b style="color:white;">Quality Kente Fabric</b></h2>
 							<a href="#" class="btn-link">Shop Now</a>
 						</div>
 					</div>
@@ -208,7 +208,7 @@
 					</a>
 				</div>
 				<div class="wrap-products">
-					<div class="wrap-product-tab tab-style-1">						
+					<div class="wrap-product-tab tab-style-1">
 						<div class="tab-contents">
 							<div class="tab-content-item active" id="digital_1a">
 								<div class="wrap-products slide-carousel owl-carousel style-nav-1 equal-container" data-items="5" data-loop="false" data-nav="true" data-dots="false" data-responsive='{"0":{"items":"1"},"480":{"items":"2"},"768":{"items":"3"},"992":{"items":"4"},"1200":{"items":"5"}}' >
@@ -245,7 +245,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>African Slippers (Women)</span></a>
-											<div class="wrap-price"><ins><p class="product-price">$0.00</p></ins> <del><p class="product-price">0.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢0.00</p></ins> <del><p class="product-price">0.00</p></del></div>
 										</div>
 									</div>
 
@@ -264,7 +264,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"  ><span  style="padding-top: 30px;">African Print Cloth</span></a>
-											<div class="wrap-price"><ins><p class="product-price">$0.00</p></ins> <del><p class="product-price">$0.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢0.00</p></ins> <del><p class="product-price">¢0.00</p></del></div>
 										</div>
 									</div>
 
@@ -282,7 +282,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Handbag (Women)</span></a>
-											<div class="wrap-price"><span class="product-price">$0.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢0.00</span></div>
 										</div>
 									</div>
 
@@ -297,7 +297,7 @@
 										</div>
 										<div class="product-info">
 											<a href="/" class="product-name"><span>YSL Handbag (Women)</span></a>
-											<div class="wrap-price"><span class="product-price">$0.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢0.00</span></div>
 										</div>
 									</div>
 
@@ -315,7 +315,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
-											<div class="wrap-price"><ins><p class="product-price">$168.00</p></ins> <del><p class="product-price">$250.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢168.00</p></ins> <del><p class="product-price">¢250.00</p></del></div>
 										</div>
 									</div>
 
@@ -333,7 +333,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
-											<div class="wrap-price"><span class="product-price">$250.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢250.00</span></div>
 										</div>
 									</div>
 
@@ -351,12 +351,12 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Radiant-360 R6 Wireless Omnidirectional Speaker [White]</span></a>
-											<div class="wrap-price"><span class="product-price">$250.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢250.00</span></div>
 										</div>
 									</div>
 
 								</div>
-							</div>							
+							</div>
 						</div>
 					</div>
 				</div>
@@ -397,7 +397,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Lucozade Energy Drink</span></a>
-											<div class="wrap-price"><span class="product-price">$0.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢0.00</span></div>
 										</div>
 									</div>
 
@@ -415,7 +415,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Coca Cola 1lt</span></a>
-											<div class="wrap-price"><ins><p class="product-price">$0.00</p></ins> <del><p class="product-price">$0.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢0.00</p></ins> <del><p class="product-price">¢0.00</p></del></div>
 										</div>
 									</div>
 
@@ -430,7 +430,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Don Simon </span></a>
-											<div class="wrap-price"><span class="product-price">$0.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢0.00</span></div>
 										</div>
 									</div>
 
@@ -449,7 +449,7 @@
 									</div>
 									<div class="product-info">
 										<a href="#" class="product-name"><span>Alvaro </span></a>
-										<div class="wrap-price"><ins><p class="product-price">$0.00</p></ins> <del><p class="product-price">$0.00</p></del></div>
+										<div class="wrap-price"><ins><p class="product-price">¢0.00</p></ins> <del><p class="product-price">¢0.00</p></del></div>
 									</div>
 								</div>
 
@@ -467,7 +467,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Fanta </span></a>
-											<div class="wrap-price"><span class="product-price">$0.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢0.00</span></div>
 										</div>
 									</div>
 
@@ -485,7 +485,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Sprite</span></a>
-											<div class="wrap-price"><ins><p class="product-price">$0.00</p></ins> <del><p class="product-price">$250.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢0.00</p></ins> <del><p class="product-price">¢250.00</p></del></div>
 										</div>
 									</div>
 
@@ -503,7 +503,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Malta Guinness</span></a>
-											<div class="wrap-price"><span class="product-price">$0.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢0.00</span></div>
 										</div>
 									</div>
 
@@ -521,7 +521,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Ceres</span></a>
-											<div class="wrap-price"><span class="product-price">$0.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢0.00</span></div>
 										</div>
 									</div>
 
@@ -545,7 +545,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Cassava Flour</span></a>
-											<div class="wrap-price"><span class="product-price">$0.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢0.00</span></div>
 										</div>
 									</div>
 
@@ -563,7 +563,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Cerelac</span></a>
-											<div class="wrap-price"><ins><p class="product-price">$0.00</p></ins> <del><p class="product-price">$250.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢0.00</p></ins> <del><p class="product-price">¢250.00</p></del></div>
 										</div>
 									</div>
 
@@ -581,7 +581,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Qauker Oats</span></a>
-											<div class="wrap-price"><span class="product-price">$0.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢0.00</span></div>
 										</div>
 									</div>
 
@@ -599,7 +599,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Keylloggs Corn Flakes</span></a>
-											<div class="wrap-price"><ins><p class="product-price">$0.00</p></ins> <del><p class="product-price">$0.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢0.00</p></ins> <del><p class="product-price">¢0.00</p></del></div>
 										</div>
 									</div>
 
@@ -617,7 +617,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Keyloggs Coco pops</span></a>
-											<div class="wrap-price"><span class="product-price">$0.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢0.00</span></div>
 										</div>
 									</div>
 
@@ -635,7 +635,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Tom Brown</span></a>
-											<div class="wrap-price"><ins><p class="product-price">$.00</p></ins> <del><p class="product-price">$0.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢.00</p></ins> <del><p class="product-price">¢0.00</p></del></div>
 										</div>
 									</div>
 
@@ -653,7 +653,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Birds Castard Powder</span></a>
-											<div class="wrap-price"><span class="product-price">$0.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢0.00</span></div>
 										</div>
 									</div>
 
@@ -671,7 +671,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Rice krispies</span></a>
-											<div class="wrap-price"><ins><p class="product-price">$.00</p></ins> <del><p class="product-price">$0.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢.00</p></ins> <del><p class="product-price">¢0.00</p></del></div>
 										</div>
 									</div>
 
@@ -695,7 +695,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Dried Foods(Fish)</span></a>
-											<div class="wrap-price"><span class="product-price">$0.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢0.00</span></div>
 										</div>
 									</div>
 
@@ -714,7 +714,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Kenkey</span></a>
-											<div class="wrap-price"><ins><p class="product-price">$0.00</p></ins> <del><p class="product-price">$0.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢0.00</p></ins> <del><p class="product-price">¢0.00</p></del></div>
 										</div>
 									</div>
 
@@ -732,7 +732,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Bread/Pie</span></a>
-											<div class="wrap-price"><span class="product-price">$0.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢0.00</span></div>
 										</div>
 									</div>
 
@@ -751,7 +751,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Tomato Paste</span></a>
-											<div class="wrap-price"><ins><p class="product-price">$0.00</p></ins> <del><p class="product-price">$0.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢0.00</p></ins> <del><p class="product-price">¢0.00</p></del></div>
 										</div>
 									</div>
 
@@ -769,7 +769,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Onions/Sardines</span></a>
-											<div class="wrap-price"><span class="product-price">$0.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢0.00</span></div>
 										</div>
 									</div>
 
@@ -788,7 +788,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Spices/Noodles[Indomie]</span></a>
-											<div class="wrap-price"><ins><p class="product-price">$0.00</p></ins> <del><p class="product-price">$0.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢0.00</p></ins> <del><p class="product-price">¢0.00</p></del></div>
 										</div>
 									</div>
 
@@ -806,7 +806,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Yam Tuber/ Cassava / Pear</span></a>
-											<div class="wrap-price"><span class="product-price">$0.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢0.00</span></div>
 										</div>
 									</div>
 
@@ -825,7 +825,7 @@
 										</div>
 										<div class="product-info">
 											<a href="#" class="product-name"><span>Mama's Choice Plantain Fufu </span></a>
-											<div class="wrap-price"><ins><p class="product-price">$0.00</p></ins> <del><p class="product-price">$0.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢0.00</p></ins> <del><p class="product-price">¢0.00</p></del></div>
 										</div>
 									</div>
 
@@ -853,7 +853,7 @@
 												<i class="fa fa-star" aria-hidden="true"></i>
 												<i class="fa fa-star" aria-hidden="true"></i>
 											</div>
-											<div class="wrap-price"><span class="product-price">$250.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢250.00</span></div>
 										</div>
 									</div>
 
@@ -877,7 +877,7 @@
 												<i class="fa fa-star" aria-hidden="true"></i>
 												<i class="fa fa-star" aria-hidden="true"></i>
 											</div>
-											<div class="wrap-price"><ins><p class="product-price">$168.00</p></ins> <del><p class="product-price">$250.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢168.00</p></ins> <del><p class="product-price">¢250.00</p></del></div>
 										</div>
 									</div>
 
@@ -901,7 +901,7 @@
 												<i class="fa fa-star" aria-hidden="true"></i>
 												<i class="fa fa-star" aria-hidden="true"></i>
 											</div>
-											<div class="wrap-price"><span class="product-price">$250.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢250.00</span></div>
 										</div>
 									</div>
 
@@ -925,7 +925,7 @@
 												<i class="fa fa-star" aria-hidden="true"></i>
 												<i class="fa fa-star" aria-hidden="true"></i>
 											</div>
-											<div class="wrap-price"><ins><p class="product-price">$168.00</p></ins> <del><p class="product-price">$250.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢168.00</p></ins> <del><p class="product-price">¢250.00</p></del></div>
 										</div>
 									</div>
 
@@ -947,7 +947,7 @@
 												<i class="fa fa-star" aria-hidden="true"></i>
 												<i class="fa fa-star" aria-hidden="true"></i>
 											</div>
-											<div class="wrap-price"><span class="product-price">$250.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢250.00</span></div>
 										</div>
 									</div>
 
@@ -971,7 +971,7 @@
 												<i class="fa fa-star" aria-hidden="true"></i>
 												<i class="fa fa-star" aria-hidden="true"></i>
 											</div>
-											<div class="wrap-price"><ins><p class="product-price">$168.00</p></ins> <del><p class="product-price">$250.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢168.00</p></ins> <del><p class="product-price">¢250.00</p></del></div>
 										</div>
 									</div>
 
@@ -995,7 +995,7 @@
 												<i class="fa fa-star" aria-hidden="true"></i>
 												<i class="fa fa-star" aria-hidden="true"></i>
 											</div>
-											<div class="wrap-price"><span class="product-price">$250.00</span></div>
+											<div class="wrap-price"><span class="product-price">¢250.00</span></div>
 				 						</div>
 									</div>
 
@@ -1020,7 +1020,7 @@
 												<i class="fa fa-star" aria-hidden="true"></i>
 												<i class="fa fa-star" aria-hidden="true"></i>
 											</div>
-											<div class="wrap-price"><ins><p class="product-price">$168.00</p></ins> <del><p class="product-price">$250.00</p></del></div>
+											<div class="wrap-price"><ins><p class="product-price">¢168.00</p></ins> <del><p class="product-price">¢250.00</p></del></div>
 										</div>
 									</div>
 
@@ -1029,7 +1029,7 @@
 						</div>
 					</div>
 				</div>
-			</div>			
+			</div>
 
 		</div>
 

@@ -10,7 +10,7 @@
             <li class="item-link"><span>{{$category_name}}</span></li>
         </ul>
     </div>
-    <div class="row"> 
+    <div class="row">
 
         <div class="col-lg-9 col-md-8 col-sm-8 col-xs-12 main-content-area">
 
@@ -67,7 +67,7 @@
                             </div>
                             <div class="product-info">
                                 <a href="{{route('product.details',['slug'=>$product->slug])}}" class="product-name"><span>{{$product->name}}</span></a>
-                                <div class="wrap-price"><span class="product-price">${{$product->regular_price}}</span></div>
+                                <div class="wrap-price"><span class="product-price">¢{{$product->regular_price}}</span></div>
                                 <a href="#" class="btn add-to-cart" wire:click.prevent="store({{$product->id}},'{{$product->name}}',{{$product->regular_price}})">Add To Cart</a>
                             </div>
                         </div>
@@ -96,12 +96,12 @@
                         @foreach($categories as $category)
                         <li class="category-item">
                             <a href="{{route('product.category',['category_slug'=>$category->slug])}}" class="cate-link">{{$category->name}}</a>
-                        </li> 
+                        </li>
                         @endforeach
                     </ul>
                 </div>
             </div><!-- Categories widget-->
-<!-- 
+<!--
             <div class="widget mercado-widget filter-widget brand-widget">
                 <h2 class="widget-title">Brand</h2>
                 <div class="widget-content">
@@ -169,7 +169,7 @@
             <div class="widget mercado-widget widget-product">
                 <h2 class="widget-title">Popular Products</h2>
                 <div class="widget-content">
-                
+
                     <ul class="products">
                         <li class="product-item">
                             <div class="product product-widget-style">
@@ -180,7 +180,7 @@
                                 </div>
                                 <div class="product-info">
                                     <a href="#" class="product-name"><span>African made Waistbeads...</span></a>
-                                    <div class="wrap-price"><span class="product-price">$20.00</span></div>
+                                    <div class="wrap-price"><span class="product-price">¢20.00</span></div>
                                 </div>
                             </div>
                         </li>
@@ -194,7 +194,7 @@
                                 </div>
                                 <div class="product-info">
                                     <a href="#" class="product-name"><span>African Print slippers...</span></a>
-                                    <div class="wrap-price"><span class="product-price">$20.00</span></div>
+                                    <div class="wrap-price"><span class="product-price">¢20.00</span></div>
                                 </div>
                             </div>
                         </li>
@@ -208,7 +208,7 @@
                                 </div>
                                 <div class="product-info">
                                     <a href="#" class="product-name"><span>African Print Slippers...</span></a>
-                                    <div class="wrap-price"><span class="product-price">$20.00</span></div>
+                                    <div class="wrap-price"><span class="product-price">¢20.00</span></div>
                                 </div>
                             </div>
                         </li>
@@ -222,13 +222,13 @@
                                 </div>
                                 <div class="product-info">
                                     <a href="#" class="product-name"><span>Outre Hair...</span></a>
-                                    <div class="wrap-price"><span class="product-price">$20.00</span></div>
+                                    <div class="wrap-price"><span class="product-price">¢20.00</span></div>
                                 </div>
                             </div>
                         </li>
 
                     </ul>
-                   
+
                 </div>
             </div><!-- brand widget-->
 
