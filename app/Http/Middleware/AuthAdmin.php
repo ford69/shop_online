@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Auth\Middleware\Authenticate as Middleware;
 use Illuminate\Support\Facades\Log;
-class AuthAdmin  extends Middleware 
+class AuthAdmin  extends Middleware
 {
     /**
      * Handle an incoming request.
@@ -17,14 +17,14 @@ class AuthAdmin  extends Middleware
      * @return mixed
      */
     public function handle(Request $request, Closure $next)
-    
-    { 
-        
+
+    {
+
         if(Auth::user()->utype=== 'ADM')
         {
             return $next($request);
         }
-        else 
+        else
         {
             session()->flush();
             return redirect()->route('login');
