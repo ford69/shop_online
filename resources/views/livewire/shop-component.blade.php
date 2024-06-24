@@ -9,13 +9,13 @@
 					<li class="item-link"><span>Fashion & Accessories</span></li>
 				</ul>
 			</div>
-			<div class="row"> 
+			<div class="row">
 				<div class="col-lg-9 col-md-8 col-sm-8 col-xs-12 main-content-area">
-					<!-- <div class="banner-shop">
+					<div class="banner-shop">
 						<a href="#" class="banner-link">
 							<figure><img src="{{asset('assets/images/shop-banner.jpg')}}" alt=""></figure>
 						</a>
-					</div> -->
+					</div>
 
 					<div class="wrap-shop-control">
 
@@ -93,7 +93,7 @@
 								@foreach($categories as $category)
 								<li class="category-item">
 									<a href="{{route('product.category',['category_slug'=>$category])}}" class="cate-link">{{$category->name}}</a>
-								</li> 
+								</li>
 								@endforeach
 							</ul>
 						</div>
@@ -166,7 +166,7 @@
 					<div class="widget mercado-widget widget-product">
 						<h2 class="widget-title">Popular Products</h2>
 						<div class="widget-content">
-						
+
 							<ul class="products">
 								<li class="product-item">
 									<div class="product product-widget-style">
@@ -225,7 +225,7 @@
 								</li>
 
 							</ul>
-							
+
 						</div>
 					</div><!-- brand widget-->
 
